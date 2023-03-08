@@ -199,7 +199,7 @@ ul .pedido:hover{
     opacity: 0.7;
 }
 
-.sobre{
+#sobre{
     display: flex;
     margin-left: 40px;
     padding-top: 50px;
@@ -222,4 +222,13 @@ ul .pedido:hover{
 .foto-sobre img{
     width: 400px;
     height: 550px;
+}
+
+address{
+    color: white;
+}
+
+footer a img{
+    width: 40px;
+    height: 40px;
 }
