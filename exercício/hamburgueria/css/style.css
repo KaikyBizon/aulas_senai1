@@ -167,7 +167,7 @@ ul .pedido:hover{
 
 .menu li ul li{
     display: block;
-    width: 150px;
+    width: 100px;
     margin-top: 35px;
 }
 
@@ -231,4 +231,24 @@ address{
 footer a img{
     width: 40px;
     height: 40px;
+    padding-left: 40px;
 }
+
+footer{
+    padding-top: 50px;
+}
+
+footer address{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    border-left: 30px;
+}
+
