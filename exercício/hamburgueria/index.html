@@ -10,95 +10,135 @@
 </head>
 
 <body>
-    <nav class="menu">
-        <img src="./img/logo_semfundo.png" alt="logo">
-        <ul>
-            <a href=".right-loginb">
-                <li>Home</li>
-            </a>
-            <a href="#sobre">
-                <li>Sobre</li>
-            </a>
-            <a href="#">
-                <li>Serviços</li>
-            </a>
-            <li class="drop"><a href="#">Cardápio</a>
-                <ul>
-                    <a href="#">
-                        <li>Hamburguers</li>
-                    </a>
-                    <a href="#">
-                        <li>Porções</li>
-                    </a>
-                    <a href="#">
-                        <li>Bebidas</li>
-                    </a>
-                </ul>
-            </li>
+    <main>
+        <nav class="menu">
+            <img id="logo" src="./img/logo_semfundo.png" alt="logo">
+            <ul>
+                <a href=".right-loginb">
+                    <li>Home</li>
+                </a>
+                <a href="#sobre">
+                    <li>Sobre</li>
+                </a>
+                <a href="#servicos">
+                    <li>Serviços</li>
+                </a>
+                <li class="drop"><a href="#">Cardápio</a>
+                    <ul>
+                        <a href="#">
+                            <li>Hamburguers</li>
+                        </a>
+                        <a href="#">
+                            <li>Porções</li>
+                        </a>
+                        <a href="#">
+                            <li>Bebidas</li>
+                        </a>
+                    </ul>
+                </li>
 
-            <a href="#">
-                <li class="pedido">Fazer o Pedido</li>
-            </a>
-        </ul>
-    </nav>
+                <a href="#">
+                    <li class="pedido">Fazer o Pedido</li>
+                </a>
+            </ul>
+        </nav>
 
-    <header class="principal">
-        <div class="left-login">
-            <h1>
-                <div class="roxo">Inscreva-se no grupo</div>do WhatsApp
-            </h1>
-            <p>Hmm, está sentindo este cheirinho? Acho que tem<Br>hambúrguer na área!<br>
-                Receba semanalmente nossas promoções direto no seu<br>WhatsApp!</p>
-
-
-            <form action="#">
-
-                <input type="text" placeholder="Nome">
-                <input type="text" placeholder="Celular">
+        <header class="principal">
+            <div class="left-login">
+                <h1>
+                    <div class="roxo">Inscreva-se no grupo</div>do WhatsApp
+                </h1>
+                <p>Hmm, está sentindo este cheirinho? Acho que tem<Br>hambúrguer na área!<br>
+                    Receba semanalmente nossas promoções direto no seu<br>WhatsApp!</p>
 
 
-                <input type="hidden" name="acao" value="enviar">
-                <button type="submit" name="Submit" class="submit_btn">Enviar</button>
+                <form action="#">
+
+                    <input type="text" placeholder="Nome">
+                    <input type="text" placeholder="Celular">
 
 
-            </form>
-        </div>
+                    <input type="hidden" name="acao" value="enviar">
+                    <button type="submit" name="Submit" class="submit_btn">Enviar</button>
 
-        <div class="right-login">
-            <img src="./img/Hamburger.png" alt="foto principal" class="img-principal">
-        </div>
-    </header>
 
-    <div class="linha"></div>
+                </form>
+            </div>
 
-    <section id="sobre">
-        <div class="foto-sobre">
-            <img src="img/banner2.jpg" alt="Hamburguer">
-        </div>
-        <div class="texto2">
-            <h1>Sobre nós!</h1>
-            <p>Somos uma haburgueria temática de CS:GO.<br>Montamos uma Lan House em nossa lanchonete<br>para poderem
-                jogar à vontade.</p>
-            <p>Sempre que times brasileiros jogam campeonatos,<br> disponibilizamos tv's para assistirem os jogos<br>e
-                fazemos haburgueres temáticos para os times.</p>
-        </div>
-    </section>
+            <div class="right-login">
+                <img src="./img/Hamburger.png" alt="foto principal" class="img-principal">
+            </div>
+        </header>
 
-    <div class="linha"></div>
+    
 
-    <footer>
-        <div class="rodape">
-            <a href="https://pt-br.facebook.com/" target="_blank"><img src="img/facebook.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="Insta"></a>
-            <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank"><img src="img/whatsapp.png" alt="WhatsApp"></a>
-        </div>
+        <article id="sobre">
+            <div class="foto-sobre">
+                <img src="img/banner2.jpg" alt="Hamburguer">
+            </div>
+            <div class="texto2">
+                <h1>Sobre nós!</h1>
+                <p>Somos uma haburgueria temática de CS:GO.<br>Montamos uma Lan House em nossa lanchonete<br>para
+                    poderem
+                    jogar à vontade.</p>
+                <p>Sempre que times brasileiros jogam campeonatos,<br> disponibilizamos tv's para assistirem os
+                    jogos<br>e
+                    fazemos haburgueres temáticos para os times.</p>
+            </div>
+        </article>
 
-            <address>Rua Itapiramba, nº10000, Jd. das Maritacas Itapira/SP</address>
         
-    </footer>
 
-    <div class="whats"><a href="https://www.whatsapp.com/?lang=pt_br"><img src="img/whatsapp.png" alt="Whatsapp"></a>
-    </div>
+        <section id="servicos">
+            <div class="servicos_item" id="item_1">
+                <img src="img/favicon.png" alt="">
+                <p>Hamburguer</p>
+            </div>
+
+            <div class="servicos_item" id="item_2">
+                <img src="img/french-fries.png" alt="">
+                <p>Porções</p>
+            </div>
+
+            <div class="servicos_item" id="item_3">
+                <img src="img/water-bottle.png" alt="">
+                <p>Refrigerante</p>
+            </div>
+
+            <div class="servicos_item" id="item_4">
+                <img src="img/pizza.png" alt="">
+                <p>Pizzas</p>
+            </div>
+
+            <div class="servicos_item" id="item_5">
+                <img src="img/popsicle.png" alt="">
+                <p>Sobremesas</p>
+            </div>
+
+            <div class="servicos_item" id="item_6">
+                <img src="img/salad.png" alt="">
+                <p>Saladas</p>
+            </div>
+        </section>
+
+        
+
+        <footer>
+            <div class="rodape">
+                <a href="https://pt-br.facebook.com/" target="_blank"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="Insta"></a>
+                <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank"><img src="img/whatsapp.png"
+                        alt="WhatsApp"></a>
+            </div>
+
+            <address>Rua Itatipiramba, nº10000, Jd. das Maritacas Itapira/SP</address>
+
+        </footer>
+
+        <div class="whats"><a href="https://www.whatsapp.com/?lang=pt_br"><img src="img/whatsapp.png"
+                    alt="Whatsapp"></a>
+        </div>
+    </main>
 </body>
 
 </html>
